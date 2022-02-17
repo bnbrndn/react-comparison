@@ -1,0 +1,17 @@
+/* Vendors */
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+/* Base */
+@import "base/_variables";
+
+/* Components */
+@import "elements/comparison";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
